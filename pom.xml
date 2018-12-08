@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jneagle</groupId>
+	<artifactId>jneagle-xlstool-zzxm</artifactId>
+	<version>1.1.0.a</version>
+	<packaging>pom</packaging>
+
+	<name>jneagle-xlstool-zzxm</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.12</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi</artifactId>
+				<version>3.17</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi-ooxml</artifactId>
+				<version>3.17</version>
+			</dependency>
+			<dependency>
+				<groupId>com.dwarfeng</groupId>
+				<artifactId>dutil-basic</artifactId>
+				<version>beta-0.2.0.a-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.dwarfeng</groupId>
+				<artifactId>dutil-develop</artifactId>
+				<version>beta-0.2.0.a-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.jneagle</groupId>
+				<artifactId>excel-tools-zzxm-core</artifactId>
+				<version>1.1.0.a</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>jneagle-xlstool-zzxm-core</module>
+		<module>jneagle-xlstool-zzxm-launcher</module>
+	</modules>
+</project>
