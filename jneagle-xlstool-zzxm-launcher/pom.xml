@@ -29,7 +29,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.jneagle</groupId>
-			<artifactId>excel-tools-zzxm-core</artifactId>
+			<artifactId>jneagle-xlstool-zzxm-core</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -50,7 +50,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.jneagle.xlstools.zzxm.launcher.ZZXMLauncher</mainClass>
+							<mainClass>com.jneagle.xlstool.zzxm.launcher.ZZXMLauncher</mainClass>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>

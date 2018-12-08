@@ -77,7 +77,7 @@
 				</executions>
 				<configuration>
 					<classpathScope>test</classpathScope>
-					<mainClass>com.jneagle.xlstools.zzxm.Exec_ZZXM</mainClass>
+					<mainClass>com.jneagle.xlstool.zzxm.Exec_ZZXM</mainClass>
 				</configuration>
 			</plugin>
 			<plugin>
