@@ -6,7 +6,7 @@
 
 	<groupId>com.jneagle</groupId>
 	<artifactId>jneagle-xlstool-zzxm</artifactId>
-	<version>1.2.0.a-SNAPSHOT</version>
+	<version>1.2.0.a</version>
 	<packaging>pom</packaging>
 
 	<name>jneagle-xlstool-zzxm</name>
@@ -23,7 +23,7 @@
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
-				<version>4.12</version>
+				<version>4.13.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.poi</groupId>
@@ -53,7 +53,7 @@
 			<dependency>
 				<groupId>com.jneagle</groupId>
 				<artifactId>jneagle-xlstool-zzxm-core</artifactId>
-				<version>1.2.0.a-SNAPSHOT</version>
+				<version>1.2.0.a</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
